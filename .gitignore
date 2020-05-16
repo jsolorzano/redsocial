@@ -1,0 +1,19 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+#/vendor/
+
+application/config/database.php
+application/config/config.php
+
+*.sql
+*.htaccess
+
+# Imagenes
+assets/img/
